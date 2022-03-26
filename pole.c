@@ -19,6 +19,7 @@ ptr_node_t append(ptr_node_t head, int x, int y) {
         ;
     
     temp -> next = new;
+
     return head;
 }
 
@@ -146,5 +147,6 @@ void print_list(ptr_node_t head) {
             head -> next, 
             head -> x, 
             head -> y);
+            
     return;
 }
